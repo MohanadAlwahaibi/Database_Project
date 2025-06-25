@@ -1,0 +1,19 @@
+1- i faced problem when i try to insert 'Male' , 'female'
+because i have decleared for gender varchar(1) 
+
+i fixed it by typing 'M' , 'F'
+
+
+2- i faced problem when inserting phone number
+the phone number was 12 char long , and i have declear it as 8 varchar
+
+the fix that i use is 
+
+alter table trainee
+alter column phone varchar(100) 
+
+3 - when i try to insert data basics it  shows blank
+the fix i there is a typo mistake. 
+
+
+
